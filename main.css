@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+title {
+  display: none;
+}
+
+.rectangle-blue {
+  width: 534px;
+  height: 634px;
+  border: 1px solid #60D3DB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.rectangle-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 569px;
+  height: 676px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1200px;
+  height: 720px;
+  background-color: black;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.cv_avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+  background: url("./assets/avatar.jpg") no-repeat center center;
+  background-size: 600px 720px;
+}
+
+.cv_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.cv_info__about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  height: 50%;
+  width: 100%;
+  background-color: #60D3DB;
+}
+
+.cv_info__about-me .title {
+  border-bottom: 1px solid white;
+  color: white;
+  width: 508px;
+}
+
+.cv_info__about-me_description {
+  width: 508px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cv_info__about-me_text {
+  color: white;
+  width: 508px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cv_info__details {
+  height: 50%;
+  width: 100%;
+}
+
+.cv_info__details__lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  height: 100%;
+  width: 50%;
+  color: white;
+}
+
+.cv_info__details__lang .title {
+  border-bottom: 1px solid white;
+  color: white;
+  width: 268px;
+}
+
+.cv_info__details__lang_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  height: 92px;
+  padding: 0;
+  width: 268px;
+}
+
+.cv_info__details__lang_list__item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.cv_info__details__lang_list__item span {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.cv_info__details__lang_list__item_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 110px;
+}
+
+.cv_info__details__lang_list__item_icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.cv_info__details__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  background-color: #fff;
+  height: 100%;
+  width: 50%;
+  color: #60D3DB;
+}
+
+.cv_info__details__cont .title {
+  border-bottom: 1px solid #60D3DB;
+  color: #60D3DB;
+  width: 268px;
+}
+
+.cv_info__details__cont_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  height: 45px;
+  padding: 0;
+  width: 268px;
+}
+
+.cv_info__details__cont_list__item {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.cv_info__details__cont_list__item span {
+  width: 200px;
+}
+
+.cv_info__details__cont_list__item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=main.css.map */
